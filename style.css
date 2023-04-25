@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Quicksand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +17,24 @@ h1{
     margin: 20px;
     color: azure;
 }
+
+span{
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+}
+
+strong{
+    font-size: 19px;
+    font-style: italic;
+}
+
 h4{
-    color: red;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 40%;
+    text-align: end;
+    color: #fff;
 }
 .conteudo{
     display: flex;
@@ -38,6 +57,31 @@ h4{
     margin: 5px;
 }
 
+.container .name{
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+
+.container .summary{
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 3%;
+}
+
+.container u{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.container .habilitys{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 3%;
+}
+
 .futura-foto-pessoal{
     width: 50vw;
     height: 50vh;
@@ -46,7 +90,7 @@ h4{
 .futura-foto-pessoal img{
     width: 40vw;
     height: 60vh;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 5%;
     margin-left: 10%;
     
