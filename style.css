@@ -50,6 +50,8 @@ h4{
     flex-direction:row-reverse;
 }
 
+
+
 .instagram{
     position: absolute;
     display: flex;
@@ -63,6 +65,7 @@ h4{
     padding: 8px;
     border-radius: 10px;
     transition: background-color 1s ease;
+    text-decoration: none;
 }
 
 .instagram:hover{
@@ -80,6 +83,7 @@ h4{
     padding: 8px;
     border-radius: 10px;
     transition: background-color 1s ease;
+    text-decoration: none;
 }
 
 .linkedin:hover{
