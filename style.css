@@ -92,9 +92,11 @@ h4{
 }
 
 .conteudo{
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: none;
 }
 
 .container{
@@ -149,6 +151,4 @@ h4{
     border-radius: 100%;
     padding: 5%;
     margin-left: 10%;
-    
-    
 }
