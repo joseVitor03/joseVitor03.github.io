@@ -58,7 +58,7 @@ h4{
     justify-content: center;
     align-items: center;
     top: 4%;
-    margin-right: 12%;
+    margin-right: 8%;
     color: #fff;
     cursor: pointer;
     border: #fff solid 1px;
@@ -76,7 +76,7 @@ h4{
 .linkedin{
     position: absolute;
     top: 4%;
-    margin-right: 5%;
+    margin-right: 3%;
     color: #fff;
     cursor: pointer;
     border: #fff solid 1px;
