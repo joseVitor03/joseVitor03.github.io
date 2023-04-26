@@ -113,6 +113,7 @@ h4{
 }
 
 .container .name{
+    text-align: center;
     font-family: 'Josefin Sans';
     font-weight: 600;
     font-size: 25px;
